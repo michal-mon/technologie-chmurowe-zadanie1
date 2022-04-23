@@ -39,7 +39,7 @@ app.get("/", (req, res) => {
 });
 
 
-//Ustawienie nasluchiwania na porcie 3000
+//Ustawienie nasluchiwania serwera na porcie 3000
 app.listen(port, () => {
   console.log("Michal Mon");
   console.log(`Data: ${Date()}`);
