@@ -1,0 +1,16 @@
+{
+  "name": "technologie-chmurowe-z1",
+  "version": "1.0.0",
+  "description": "Autor: Michal Mon",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michal Mon",
+  "license": "ISC"
+}
