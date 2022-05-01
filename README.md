@@ -10,4 +10,8 @@ Serwer został napisany w języku JavaScript z wykorzystaniem serwera Express or
 <li><b>docker buildx use builder1</b> - przekazanie informacji do buildx, aby używał buildera "builder1"</li>
 <li><b>docker buildx inspect --bootstrap</b> - wyświetlenie inforamcji o builderze oraz uruchomienie go</li>
 <li><b>docker buildx build -f Dockerfile -t michalmon/tch-z1:test --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push .</b> - zbudowanie obrazu na architektury: linux/arm/v7, linux/arm64/v8, linux/amd64 (zgodnie z poleceniem) oraz nadanie obrazowi nazwy "michalmon/tch-z1:test" i wypchnięcie go do repozytorium na Dockerhub (michalmon/tch-z1)</br>Link: <a href="https://hub.docker.com/repository/docker/michalmon/tch-z1">Repozytorium Dockerhub</a></li>
+<li><b>docker run -d -p 5000:5000 --name test1 michalmon/tch-z1:test</b> - uruchomienie kontenera z obrazem na porcie 5000</li>
+<li><b>docker logs test1</b> - wyświetlenie z logów informacji o autorze, czasie uruchomienia i porcie, na którym nasłuchuje serwer</li>
+<li><b>docker history michalmon/tch-z1:test</b> - wyświetlenie inforamcji o warstwach obrazu</li>
 </ol>
+<h4>Zrzuty ekranu:</h4>
