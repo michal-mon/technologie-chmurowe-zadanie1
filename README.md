@@ -15,3 +15,16 @@ Serwer został napisany w języku JavaScript z wykorzystaniem serwera Express or
 <li><b>docker history michalmon/tch-z1:test</b> - wyświetlenie inforamcji o warstwach obrazu</li>
 </ol>
 <h4>Zrzuty ekranu:</h4>
+<h5>Polecenia 1-3:</h5>
+<img src="screenshots/1.png" />
+<h5>Polecenie 4:</h5>
+<img src="screenshots/2.png" />
+<h5>Polecenie 5:</h5>
+<img src="screenshots/3.png" />
+<h5>Polecenie 6:</h5>
+<img src="screenshots/5.png" />
+<h5>Polecenie 7:</h5>
+<img src="screenshots/6.png" />
+<h4>Działanie:</h4>
+<img src="screenshots/4.png" />
+<h2>Część dodatkowa - Dodatek 1</h2>
