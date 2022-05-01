@@ -1,12 +1,10 @@
 //Import biblioteki "express" oraz "axios"
 const express = require("express");
 const axios = require("axios");
-
 //Utworzenie aplikacji Express
 const app = express();
-
-//Ustawienie stalej "port" jako port 3000
-const port = process.env.PORT | 3000;
+//Ustawienie stalej "port" jako port 5000
+const port = process.env.PORT | 5000;
 
 app.get("/", (req, res) => {
     // Pobranie adresu IP klienta
@@ -39,7 +37,7 @@ app.get("/", (req, res) => {
 });
 
 
-//Ustawienie nasluchiwania serwera na porcie 3000
+//Ustawienie nasluchiwania serwera na porcie 5000
 app.listen(port, () => {
   console.log("Michal Mon");
   console.log(`Data: ${Date()}`);
