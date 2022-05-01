@@ -3,7 +3,7 @@
 <h3>Autor: Michał Moń</h3>
 <h4>Opis repozytorium:</h4>
 <p>Repozytorium składa się z katalogu "src", czyli kodu źródłowego serwera oraz pliku Dockerfile.<br/><br/>
-Serwer został napisany w języku JavaScript z wykorzystaniem serwera Express oraz biblioteki Axios. Wykorzystuje on również API <a href="https://ipwhois.io/" target="">ipwhois</a> w celu otrzymania adresu IP, za pomocą którego zostaje wyznaczona strefa czasowa. Serwer domyślnie nasłuchuje na porcie 5000.</br><br/>Dockerfile...</p>
+Serwer został napisany w języku JavaScript z wykorzystaniem serwera Express oraz biblioteki Axios. Wykorzystuje on również API <a href="https://ipwhois.io/" target="">ipwhois</a> w celu otrzymania adresu IP, za pomocą którego zostaje wyznaczona strefa czasowa. Serwer domyślnie nasłuchuje na porcie 5000.</br></p>
 <h4>Użyte polecenia:</h4>
 <ol>
 <li><b>docker buildx create --name builder1</b> - utworzenie nowego buildera o nazwie "builder1"</li>
@@ -27,4 +27,5 @@ Serwer został napisany w języku JavaScript z wykorzystaniem serwera Express or
 <img src="screenshots/6.png" />
 <h4>Działanie:</h4>
 <img src="screenshots/4.png" />
+
 <h2>Część dodatkowa - Dodatek 1</h2>
