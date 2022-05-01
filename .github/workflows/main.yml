@@ -36,8 +36,8 @@ jobs:
       - name: Dockerhub Login
         uses: docker/login-action@v1.14.1
         with:
-          username: ${{secrets.DOCKER_HUB_LOGIN}}
-          password: ${{secrets.DOCKER_HUB_ACCESS_TOKEN}}
+          username: ${{secrets.DOCKERHUB_LOGIN}}
+          password: ${{secrets.DOCKERHUB_ACCESS_TOKEN}}
           
       #Zbudowanie i wypchniecie obrazu do Dockerhub
       - name: Build and push
