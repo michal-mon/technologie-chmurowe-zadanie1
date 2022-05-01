@@ -16,8 +16,9 @@ app.get("/", (req, res) => {
     .then((axiosRes) => {
         const data = axiosRes.data;
         //Jesli udalo sie pobrac dane...
-        if (data.success) {
-            //Okreslenie czasu klienta na podstawie strefy czasowej
+        if (data.success)
+        {
+            //Okreslenie godziny i czasu u klienta na podstawie strefy czasowej
             let dateTime = new Date().toLocaleString("pl-PL", {
                 timeZone: data.timezone,
             });
@@ -25,17 +26,17 @@ app.get("/", (req, res) => {
             res.write(`Data u klienta API "ipwhois": ${dateTime}`);
         }
         //Jesli nie udalo sie pobrac danych...
-        else {
-                res.write("Wystapil blad pobierania danych\n");
-                res.write(`Tresc bledu:\n${data.message}`)
-            }
+        else
+        {
+            res.write("Wystapil blad pobierania danych!\n");
+            res.write(`Tresc bledu:\n${data.message}`)
+        }
         res.send();
-    })
+    }) //Obsluga bledow
     .catch((error) => {
         console.error(error);
     });
 });
-
 
 //Ustawienie nasluchiwania serwera na porcie 5000
 app.listen(port, () => {
