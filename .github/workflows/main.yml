@@ -69,4 +69,4 @@ jobs:
           push: true
           tags: |
               michalmon/tch-z1:zadanie1_github_actions
-              ghcr.io/michalmon/test
+              ghcr.io/michal-mon/test
