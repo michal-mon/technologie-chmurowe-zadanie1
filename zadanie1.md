@@ -29,3 +29,15 @@ Serwer został napisany w języku JavaScript z wykorzystaniem serwera Express or
 <img src="screenshots/4.png" />
 
 <h2>Część dodatkowa - Dodatek 1</h2>
+
+Workflow zostaje wyzwolony w przypadku wypchnięcia na gałąź "main"
+Runner: ubuntu-latest
+
+Etapy:
+<ol>
+<li><b>"actions/checkout@v3"</b> - walidacja dostępu workflow do repozytorium</li>
+<li><b>"docker/setup-buildx-action@v1.6.0"</b> - konfiguracja Buildx</li>
+<li><b>"docker/setup-qemu-action@v1.2.0"</b> - instalacja QEMU na wielu architekturach</li>
+<li><b>"docker/login-action@v1.14.1"</b> - logowanie do konta Dockerhub</li>
+  <li><b>"docker/build-push-action@v2"</b> - zbudowanie i wypchnięcie obrazów na Dockerhuba</li>
+</ol>
