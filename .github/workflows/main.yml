@@ -70,3 +70,9 @@ jobs:
           tags: |
               michalmon/tch-z1:zadanie1_github_actions
               ghcr.io/michal-mon/test
+
+      #Aktualizacja cache
+      - name: Cache update
+        run: |
+          rm -rf /tmp/.buildx-cache
+          mv /tmp/.buildx-cache-new /tmp/.buildx-cache
