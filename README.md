@@ -38,6 +38,11 @@ Etapy:
 <li><b>"actions/checkout@v3"</b> - walidacja dostępu workflow do repozytorium</li>
 <li><b>"docker/setup-buildx-action@v1.6.0"</b> - konfiguracja Buildx</li>
 <li><b>"docker/setup-qemu-action@v1.2.0"</b> - instalacja QEMU na wielu architekturach</li>
+<li>Akcja: "cache" - umożliwia cachowanie, pomiędzy uruchomieniami maszyny wirtualnej</li>
 <li><b>"docker/login-action@v1.14.1"</b> - logowanie do konta Dockerhub</li>
-  <li><b>"docker/build-push-action@v2"</b> - zbudowanie i wypchnięcie obrazów na Dockerhuba</li>
+<li><b>"docker/login-action@v1"</b> - logowanie do GitHub Registry</li>
+<li><b>"actions/cache@v2"</b> - umożliwienie tworzenia cache</li>
+<li><b>"docker/build-push-action@v2"</b> - zbudowanie i wypchnięcie obrazów na Dockerhuba</li>
+<li></b>"Cache update"</b> - skrypt, który pozwala na zaktualizowanie cache</li>
 </ol>
+
