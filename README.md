@@ -32,7 +32,7 @@ Serwer został napisany w języku JavaScript z wykorzystaniem serwera Express or
 
 Workflow zostaje wyzwolony w przypadku wypchnięcia na gałąź "main"<br/>Runner: ubuntu-latest<br/>
 
-Etapy:
+<h4>Etapy:</h4>
 <ol>
 <li><b>"actions/checkout@v3"</b> - walidacja dostępu workflow do repozytorium</li>
 <li><b>"docker/setup-buildx-action@v1.6.0"</b> - konfiguracja Buildx</li>
@@ -44,3 +44,14 @@ Etapy:
 <li><b>"Cache update"</b> - skrypt, który pozwala na zaktualizowanie cache</li>
 </ol>
 
+<h4>Zrzuty ekranu poszczególnych etapów workflow:</h4>
+<h5>Etapy 1-3:<h5>
+<img src="screenshots/7.png" />
+<h5>Etapy 4-6:<h5>
+<img src="screenshots/8.png" />
+<h5>Etap 7 (fragment):<h5>
+<img src="screenshots/9.png" />
+<h5>Etapy 8:<h5>
+<img src="screenshots/10.png" />
+<h5>Wszystkie etapy:<h5>
+<img src="screenshots/11.png" />
